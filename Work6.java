@@ -10,12 +10,10 @@ public class Main {
         if (bool) { // если bool == true
             System.out.println(m); // ...
 
-            if (!bool) { // если bool == false
 
             }
 
         }
 
     }
-}
 

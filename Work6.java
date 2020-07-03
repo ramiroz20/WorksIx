@@ -1,16 +1,18 @@
 package com.company;
 
-public class Worksix {
+public class Main {
 
-    public static boolean main(String[] args) {
-        // public boolean isALessThanB ( int a, int b){
+    public static void main(String[] args) {
         int b = 2;
-        {
-            boolean b1 = (b > 0);
-            if (b1)
-                return false;
-            else
-                return true;
-        }
+        int a = 1;
+        boolean m = (a > b);
+        if (m == true)
+            System.out.println(true);
+        if (a < b)
+            System.out.println(false);
+        
     }
+    
 }
+
+
